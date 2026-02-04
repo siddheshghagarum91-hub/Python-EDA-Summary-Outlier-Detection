@@ -1,0 +1,18 @@
+Exploratory Data Analysis (EDA) was performed on the student performance dataset to understand data distribution, detect outliers, and identify relationships between variables.
+
+The dataset contains student demographic, academic, and activity-related features. Initial inspection showed correct data types and no critical missing values in the key numeric columns.
+
+Descriptive statistics were generated for Age, StudyTimeWeekly, Absences, and GPA. GPA values were generally within a reasonable academic range, while Absences showed higher variability among students.
+
+Histograms and boxplots were used to visualize data distribution. Boxplots indicated the presence of outliers in the GPA column.
+
+Outliers were detected using the Interquartile Range (IQR) method. Extreme GPA values outside the lower and upper bounds were identified as outliers.
+
+Outlier handling was performed using the capping method to preserve student records while limiting the effect of extreme values.
+
+Correlation analysis showed:
+- GPA has a positive correlation with weekly study time.
+- GPA has a negative correlation with number of absences.
+- Study time and absences show an inverse relationship.
+
+The cleaned dataset was exported for further analysis and modeling.
